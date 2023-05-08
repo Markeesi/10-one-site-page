@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  background-color: #000000;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: row;
+  color: white;
+
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+nav li {
+  font-size: 3.6rem;
+  padding: 1rem;
+  justify-content: right;
+}
+
+nav li :nth-child(1) {
+  float: left;
+}
+p {
+  color: white;
+}
+
+section {
+  padding: 1rem;
+}
+section h1 {
+  font-size: 4.8;
+  padding: 1rem;
+  font-weight: 700;
+}
+.cards h1 article p {
+  max-width: 100%;
+  flex-direction: column;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
+  padding: 1.6rem;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.column {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 0 1rem;
+}
