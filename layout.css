@@ -4,56 +4,184 @@ html {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.6rem;
-  background-color: #000000;
+  background-color: whitesmoke;
   color: white;
+  padding: 1rem;
+  
+}
+main {
+  background-color: #313133;
+  
 }
 
 nav {
-  display: flex;
-  flex-grow: 3;
-  flex-direction: row;
-  color: white;
-
-  width: 100%;
+  background-color: #000000;
+  
 }
-
 nav ul {
   display: flex;
   flex-direction: row;
-  color: white;
+  text-align: center;
+  justify-content: center;
+  flex-basis: auto;
+  border-radius: 2%;
 }
+
+
 nav li {
   font-size: 3.6rem;
   padding: 1rem;
-  justify-content: right;
+
 }
 
-nav li :nth-child(1) {
-  float: left;
+nav li a {
+  display: block;
+  color: goldenrod;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 700;
 }
+
+nav li a:hover {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 p {
   color: white;
+  padding: 1rem;
 }
 
 section {
   padding: 1rem;
 }
 section h1 {
+  
   font-size: 4.8;
   padding: 1rem;
   font-weight: 700;
 }
-.cards h1 article p {
-  max-width: 100%;
-  flex-direction: column;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
+.cards {
+  flex-basis: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
   padding: 1.6rem;
-  text-align: center;
-  background-color: #f1f1f1;
+  
+  
 }
-.column {
-  display: block;
-  float: left;
-  width: 25%;
-  padding: 0 1rem;
+
+.card {
+  background-color: white;
+  flex: 0 1 24%;
+  border-radius: 5%;
+  padding: 1rem;
+  
+}
+.card  h1 
+{
+  color: black;
+  margin-top: 0;
+  padding: 1rem;
+}
+.card p {
+  padding: 1rem;
+  color: #000000;
+}
+
+.topborder {
+  border-top: 0.5rem solid rgb(240, 178, 9);
+}
+
+.portfolio {
+  background-image: url(https://images.unsplash.com/photo-1518108867640-eb265a34a6fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+}
+.eka {
+  margin-right: auto;
+}
+
+.card1 {
+  border: 1rem solid goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  background-image: url(https://images.unsplash.com/photo-1591522810783-a870802cbafe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80);
+}
+
+.card1 p {
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 2%;
+  font-weight: 700;
+  padding: 1rem;
+  color: #D84924
+}
+
+.card1 h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #D84924
+}
+
+.card2 {
+  border: 1rem solid goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80);
+}
+
+.card2 p {
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 2%;
+  font-weight: 700;
+  padding: 1rem;
+  color: #D84924
+}
+
+.card2 h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #D84924
+}
+
+.card3 {
+  border: 1rem solid goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  background-image: url(https://images.unsplash.com/photo-1647166545674-ce28ce93bdca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80);
+}
+
+.card3 p {
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 2%;
+  font-weight: 700;
+  padding: 1rem;
+  color: white
+}
+
+.card3 h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #D84924
+}
+.card3 p:hover {
+  font-size: 2.2rem;
+  margin: 1rem;
+  border-radius: 2%;
+  font-weight: 900;
+  padding: 1rem;
+  color: rgb(0, 149, 248);
+  text-align: justify;
+}
+
+.heading {
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 3.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
