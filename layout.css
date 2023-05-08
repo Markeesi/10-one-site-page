@@ -110,11 +110,12 @@ section h1 {
   text-align: center;
   padding: 2rem;
   margin: 2rem;
-  color: white;
+  
   list-style-position: outside;
   
 }
 .li li{
+  color: white;
   text-align: justify;
   margin-block-start: 25%;
   font-size: 2.2rem;
@@ -127,6 +128,14 @@ section h1 {
   text-align: center;
   position: absolute;
   text-decoration: none;
+}
+
+.li a:visited {
+  text-decoration: none;
+  color: white
+}
+.li a:hover {
+  color: goldenrod
 }
 
 .card1 {
