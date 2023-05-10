@@ -204,15 +204,15 @@ section h1 {
   font-weight: 700;
   color: #D84924
 }
-.card3 p:hover {
+/* .card3 p:hover {
   font-size: 2.2rem;
   margin: 1rem;
   border-radius: 2%;
   font-weight: 900;
   padding: 1rem;
-  color: rgb(0, 149, 248);
+  color: rgb(0, 87, 248);
   text-align: justify;
-}
+} */
 
 .heading {
   color: goldenrod;
@@ -269,6 +269,7 @@ input[type="submit"] {
   cursor: pointer;
   padding: 10px 20px;
   margin-top: 10px;
+  border-radius: 0.4rem;
 }
 
 input[type="submit"]:hover {
