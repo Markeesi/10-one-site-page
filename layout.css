@@ -51,6 +51,7 @@ nav li a:hover {
 }
 
 p {
+  font-size: 1.8rem;
   color: white;
   padding: 1rem;
 }
@@ -222,4 +223,55 @@ section h1 {
 
 .footer {
   margin: 1rem;
+}
+
+.form-container {
+  max-width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+/* STYYLAA FORM JA SYÖTTÖKENTÄT */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem calc((100% - 1000px) / 2);
+  min-height: 100%;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+input,
+textarea {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  
 }
